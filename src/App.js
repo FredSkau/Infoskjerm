@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Title from './Title';
 import DadJoke from './DadJoke';
-import Bikes from './Bikes';
+import Scooters from './Scooters';
+import Busses from './Busses';
 
 function App() {
   console.log("Heisann");
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
       <Title />
       <DadJoke />
-      <Bikes />
+      <Scooters />
+      <Busses />
     </div>
   );
 }
